@@ -37,6 +37,7 @@ $(document).ready(function () {
                                         <div class="col-sm-12">
                                             <div class="card">
                                                 <div class="card-header">
+                                                    <h2>No</h2>
                                                     <h2>Daftar Kost</h2>
                                                 </div>
                                             <div class="card-body">
@@ -59,6 +60,7 @@ $(document).ready(function () {
                             var keterangan = `<span>${a[0]}</span>`
                         }
                         table3 += `<tr>
+                        <td>${b + 1}</td>
                         <td>${keterangan}</td>
                         </tr>
                         `
